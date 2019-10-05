@@ -1,0 +1,21 @@
+{
+  "name": "elm-quickstart",
+  "version": "0.0.1",
+  "description": "A quickstart based on the website https://elmprogramming.com/",
+  "main": "index.html",
+  "scripts": {
+    "build": "elm make src/HomePage.elm --output=bundle.js",
+    "watch": "elm-live src/HomePage.elm -o  -- --output=bundle.js",
+    "test": "elm-test"
+  },
+  "keywords": [
+    "elm",
+    "quickstart",
+    "elm-test",
+    "elm-format",
+    "elm-live",
+    "travis"
+  ],
+  "author": "mcdouglas",
+  "license": "MIT"
+}
